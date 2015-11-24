@@ -1,0 +1,118 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>L&L - Responsive Design - Correction Exercice 4</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<!-- Ajout du javascript pour afficher la largeur de la fenêtre de façon dynamique -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+	
+		<div id="aide">
+			<small><i>Largeur de la fenêtre : <span id="largeur_fenetre"></span> px / type : <span id="type_fenetre"></span></i></small>
+		</div>
+	
+		<h1>L&L - Responsive Design - Correction Exercice 4</h1>
+		
+		<p>
+			<strong>Exercice :</strong> Utiliser le Framework Bootstrap...
+		</p>
+		
+		<hr/>
+		
+		<div id="exercice">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Repères et chiffres clés</div>
+				  <div class="panel-body">
+					<p>
+						Fort de près de 180 000 collaborateurs et présent dans plus de 40 pays, Capgemini est l’un des leaders mondiaux du conseil, des services informatiques et de l’infogérance. Le Groupe a réalisé en 2014 un chiffre d’affaires de 10,573 milliards d’euros.
+					</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Notre vision</div>
+				  <div class="panel-body">
+					<p>
+						Chez Capgemini, nous sommes convaincus que la réussite de vos projets ne dépend pas uniquement de la technologie. Les hommes sont au cœur du développement de l’entreprise. Tout commence par une discussion de travail entre vous et nous, réunis autour d’un même objectif : comprendre en profondeur les implications de vos ambitions économiques et développer les solutions pour les atteindre. Nous pensons que cette approche de la technologie, centrée sur les hommes, fera la différence pour votre entreprise.
+					</p>
+					<img class="hidden-xs hidden-sm" src="https://www.fr.capgemini.com/sites/all/themes/capgemini/logo.png"/>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Nos sept valeurs sont</div>
+				  <div class="panel-body">
+						<p><strong>l’honnêteté</strong><span class="hidden-xs">, et en particulier le refus de toutes pratiques déloyales dans la conduite des affaires en vue d’obtenir un contrat ou un avantage particulier. Des règles précises relatives aux commissions, cadeaux et dons de toute nature ont été établies dans cet esprit ;</span></p>
+
+						<p><strong>l’audace</strong><span class="hidden-xs">, au sens du goût d’entreprendre, de l’envie de prendre des risques et de s’engager, dans le respect d’un principe général de prudence et de lucidité sans lequel le manager audacieux peut se révéler dangereux ;</span></p>
+
+						<p><strong>la confiance</strong><span class="hidden-xs">, qui implique la volonté de responsabiliser les hommes et les équipes, et de confronter les responsables aux effets de leurs actions et décisions. La confiance implique également l’ouverture d’esprit et une grande transparence dans la circulation de l’information ;</span></p>
+
+						<p><strong>la liberté</strong><span class="hidden-xs">, ou encore la créativité, l’innovation, l’indépendance d’esprit et le respect des autres dans leurs cultures, leurs habitudes et leurs différences, ce qui est indispensable dans un Groupe présent dans plus d’une trentaine de pays et comptant plus d'une centaine de nationalités différentes ;</span></p>
+
+						<p><strong>la solidarité</strong><span class="hidden-xs"> et la capacité à partager solidairement les bons et les mauvais moments ;</span></p>
+
+						<p><strong>la simplicité</strong><span class="hidden-xs"> c’est-à-dire le contraire de l’affectation, de la prétention, de la grandiloquence, de l’arrogance et de la vantardise. La simplicité, ce n’est pas la naïveté (simple n’est pas simplet!), c’est la discrétion, la modestie réelle, le bon sens, l’attention portée aux autres et le soin mis à se faire comprendre d’eux, c’est la franchise des relations dans le travail, la décontraction, le sens de l’humour ;</span></p>
+
+						<p><strong>le plaisir</strong><span class="hidden-xs"> enfin, sans lequel tout projet d’entreprise est difficile, voire impossible à réaliser.</span></p>
+				  </div>
+				</div>
+			</div>	
+			
+			
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Capgemini et le rugby : la force du lien</div>
+				  <div class="panel-body">
+					<img class="col-lg-3 col-md-2 pull-right hidden-xs hidden-sm" src="https://www.fr.capgemini.com/sites/default/files/quadri_-_logo_20_ans_partenariat_capgeu_0.jpg"/>
+					
+					<p>Partenaire du Biarritz Olympique Pays Basque depuis 1992, sponsor officiel de la Coupe du Monde 2007, l'engagement de Capgemini comme partenaire du rugby repose sur la conviction qu'il existe entre les univers du rugby et de notre Groupe une communauté de valeurs.</p>
+					
+					<p>Cet engagement en faveur du rugby ne doit rien au hasard : il repose sur un socle de valeurs partagées dont nos collaborateurs se font l’écho et s'inscrit dans la durée.</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Développement durable pour nos clients</div>
+				  <div class="panel-body">
+					<p>
+					Les entreprises comme Capgemini ont un rôle à jouer en matière de protection des ressources naturelles, de préservation de la biodiversité et de lutte contre la pollution et les changements climatiques. Nous nous engageons à réduire notre empreinte écologique en termes de consommation énergétique, de déplacement professionnel et de gestion des déchets.
+					</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">Développement durable pour nos clients</div>
+				  <div class="panel-body">
+					<p>
+					Capgemini a conscience que ses clients sont également à la recherche de solutions pratiques leur permettant de relever leurs propres défis en termes de développement durable. Pour répondre à cette demande, nous investissons dans le développement de savoir-faire et d'offres de service pour faire face à ces différents défis.
+					</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

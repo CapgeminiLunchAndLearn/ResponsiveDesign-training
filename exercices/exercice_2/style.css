@@ -1,0 +1,18 @@
+/** Zone qu iaffiche la largeur de la page */
+#aide{
+	float:right;
+}
+
+/* Style par défaut du cadre */
+.cadre{
+	width:500px;
+	height:250px;
+	border:1px solid black;
+	margin:auto;
+	margin-top:50px;
+	text-align:center;
+}
+
+/* TODO 
+ * Indice : Utiliser les media query screen (https://developer.mozilla.org/fr/docs/Web/CSS/Media_queries) et la propriété background-color
+ */

@@ -1,0 +1,50 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html{
+	width:100%;
+	position:relative;
+	margin:0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+/* Classe pour les images **/
+
+.capgemini_rugby{
+	/* Spécifie une hauteur maximum */
+	max-height:150px;
+	/* Image flotante à droite */
+	float:right;
+	/* Marge gauche de 20 pixels pour ne pas être collé au texte */
+	margin-left:20px;
+}
+
+.capgemini_logo{
+	/* La base img est de type inline (prend uniquement la place que l'élément à besoin),
+	On force le type block pour que l'élément prenne toute la place possible */
+	display:block;
+	/* Le fait que l'élément soit de type block nous permet d'ajouter des marges automatique et donc
+	de centrer l'élément */
+	margin:auto;
+}
+
+/* TODO 
+ * Indice : Utiliser la propriété width en pourcentage ainsi que la propriété float...
+ */
+
+.col-1{
+}
+
+.col-2{
+}
+
+.col-3{
+}
+
+.col-4{
+}

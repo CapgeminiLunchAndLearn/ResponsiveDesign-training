@@ -1,0 +1,130 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html{
+	width:100%;
+	position:relative;
+	margin:0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+/* Zone qui affiche la largeur de la page */
+#aide{
+	float:right;
+}
+
+/* Style par défaut du cadre */
+.cadre{
+	width:500px;
+	height:250px;
+	border:1px solid black;
+	margin:auto;
+	margin-top:50px;
+	text-align:center;
+}
+
+/* Classe pour les images **/
+
+.capgemini_rugby{
+	/* Spécifie une hauteur maximum */
+	max-height:150px;
+	/* Image flotante à droite */
+	float:right;
+	/* Marge gauche de 20 pixels pour ne pas être collé au texte */
+	margin-left:20px;
+}
+
+.capgemini_logo{
+	/* La base img est de type inline (prend uniquement la place que l'élément à besoin),
+	On force le type block pour que l'élément prenne toute la place possible */
+	display:block;
+	/* Le fait que l'élément soit de type block nous permet d'ajouter des marges automatique et donc
+	de centrer l'élément */
+	margin:auto;
+}
+
+/* TODO 
+ * Indice : Utiliser la propriété width en pourcentage ainsi que la propriété float...
+ */
+
+@media (max-width: 1000px) {
+	.col-xs-1{
+		float:left;
+		width:25%;
+		
+		background-color:#F2F2F2;
+		border:1px solid red;
+		padding:10px;
+	}
+
+	.col-xs-2{
+		float:left;
+		width:50%;
+		
+		background-color:#F2F2F2;
+		border:1px solid red;
+		padding:10px;
+	}
+
+	.col-xs-3{
+		float:left;
+		width:75%;
+		
+		background-color:#F2F2F2;
+		border:1px solid red;
+		padding:10px;
+	}
+
+	.col-xs-4{
+		float:left;
+		width:100%;
+		
+		background-color:#F2F2F2;
+		border:1px solid red;
+		padding:10px;
+	}
+}
+
+
+@media (min-width: 1001px) {
+	.col-lg-1{
+		float:left;
+		width:25%;
+		
+		background-color:#F2F2F2;
+		border:1px solid blue;
+		padding:10px;
+	}
+
+	.col-lg-2{
+		float:left;
+		width:50%;
+		
+		background-color:#F2F2F2;
+		border:1px solid blue;
+		padding:10px;
+	}
+
+	.col-lg-3{
+		float:left;
+		width:75%;
+		
+		background-color:#F2F2F2;
+		border:1px solid blue;
+		padding:10px;
+	}
+
+	.col-lg-4{
+		float:left;
+		width:100%;
+		
+		background-color:#F2F2F2;
+		border:1px solid blue;
+		padding:10px;
+	}
+}
